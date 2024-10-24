@@ -1,0 +1,85 @@
+{
+    "Unity Script Template": {
+        "prefix": "unityscript", // Das ist das Trigger-Keyword
+        "body": [
+            "// Unity Standard Namespaces",
+            "using System;",
+            "using System.Collections;",
+            "using System.Collections.Generic;",
+            "using UnityEngine;",
+            "using UnityEngine.UI;",
+            "using TMPro; // TextMeshPro for UI text",
+            "",
+            "// Start your class script here",
+            "public class $1 : MonoBehaviour {", // Der Cursor startet beim Klassennamen
+            "    // Your methods and logic here",
+            "",
+            "    // Start is called before the first frame update",
+            "    void Start() {",
+            "        // Add your initialization logic here",
+            "    }",
+            "",
+            "    // Update is called once per frame",
+            "    void Update() {",
+            "        // Add your update logic here",
+            "    }",
+            "}"
+        ],
+        "description": "Unity C# Script with essential namespaces, Start, and Update"
+    },
+    "Public Start Method": {
+        "prefix": "pubstart",
+        "body": [
+            "public void Start() {",
+            "    $1", // Cursor position
+            "}"
+        ],
+        "description": "Public Start method with brackets"
+    },
+    "Public Update Method": {
+        "prefix": "pubupdate",
+        "body": [
+            "public void Update() {",
+            "    $1", // Cursor position
+            "}"
+        ],
+        "description": "Public Update method with brackets"
+    },
+    "Public OnCollisionEnter2D Method": {
+    "prefix": "puboncollision2d",
+    "body": [
+        "private void OnCollisionEnter2D(Collision2D collision) {",
+        "    // Handle collision with collision: $1", // Cursor position
+        "}"
+    ],
+    "description": "Private OnCollisionEnter2D method with brackets"
+    },
+    "Public OnTriggerEnter2D Method": {
+    "prefix": "pubontrigger2d",
+    "body": [
+        "private void OnTriggerEnter2D(Collider2D other) {",
+        "    // Handle trigger with other: $1", // Cursor position
+        "}"
+    ],
+    "description": "Private OnTriggerEnter2D method with brackets"
+    },
+    "Public Coroutine Method": {
+    "prefix": "pubcoroutine",
+    "body": [
+        "public IEnumerator MyCoroutine() {",
+        "    yield return null; // Add your yield statements here",
+        "    $1", // Cursor position
+        "}"
+    ],
+    "description": "Public Coroutine method with brackets"
+    },
+    "Public FixedUpdate Method": {
+    "prefix": "pubfixedupdate",
+    "body": [
+        "public void FixedUpdate() {",
+        "    $1", // Cursor position
+        "}"
+    ],
+    "description": "Public FixedUpdate method with brackets"
+    }
+}
