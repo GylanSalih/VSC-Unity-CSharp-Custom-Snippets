@@ -1,4 +1,4 @@
-# Unity-CSharp-Snippets
+# VSC Unity CSharp Custom Snippets
 
 A collection of useful C# snippets for Unity game development. These snippets are optimized for use in Visual Studio Code and help you quickly create frequently used methods and structures.
 
