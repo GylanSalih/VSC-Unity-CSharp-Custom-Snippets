@@ -2,6 +2,10 @@
 
 A collection of useful C# snippets for Unity game development. These snippets are optimized for use in Visual Studio Code and help you quickly create frequently used methods and structures.
 
+## Example Image
+
+![Example Snippet](https://github.com/GylanSalih/VSC-Unity-CSharp-Custom-Snippets/blob/main/ExampleImg.png)
+
 ## Contents
 
 - **Unity Script Template**: A complete template for Unity scripts with essential namespaces and Start/Update methods.
