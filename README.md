@@ -22,6 +22,14 @@ To use the snippets, simply add them to your `csharp.json` file in Visual Studio
 
 To create a new Unity script, type `unityscript` and press `Enter`. This will insert a pre-defined script with the basic structure.
 
+- **Public Start Method**: Type `pubstart` to generate a public Start method with brackets.
+- **Public Update Method**: Type `pubupdate` to generate a public Update method with brackets.
+- **Public OnCollisionEnter2D Method**: Type `puboncollision2d` to generate a private OnCollisionEnter2D method with brackets.
+- **Public OnTriggerEnter2D Method**: Type `pubontrigger2d` to generate a private OnTriggerEnter2D method with brackets.
+- **Public Coroutine Method**: Type `pubcoroutine` to generate a public Coroutine method with brackets.
+- **Public FixedUpdate Method**: Type `pubfixedupdate` to generate a public FixedUpdate method with brackets.
+
+
 ### Public Start Method
 
 Type `pubstart` to generate a `Start` method with brackets.
